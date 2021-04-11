@@ -1,7 +1,7 @@
 const { model, Schema } = require("mongoose");
 
 const userSchema = new Schema({
-  username: Strting,
+  username: String,
   pasasword: String,
   email: String,
   createdAt: String,
